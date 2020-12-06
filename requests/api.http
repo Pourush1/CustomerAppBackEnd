@@ -1,0 +1,7 @@
+GET http://localhost:5000/customers
+Content-Type: application/json
+
+# {
+#   "customerName" : "Ryan",
+#   "customerAddress" : "Texas"
+# }
