@@ -1,7 +1,21 @@
-GET http://localhost:5000/customers
+# GET http://localhost:5000/customers
+# Content-Type: application/json
+
+GET http://localhost:5000/5fcc7ddbce90e57d101eaa0b
 Content-Type: application/json
 
+# POST http://localhost:5000/add
+# Content-Type: application/json
+
 # {
-#   "customerName" : "Ryan",
-#   "customerAddress" : "Texas"
+#   "customerName" : "Jack",
+#   "customerAddress" : "New York"
+# }
+
+# POST http://localhost:5000/5fcca2b6ca135889c4f01c2d
+# Content-Type: application/json
+
+# {
+#   "customerName" : "Jimin",
+#   "customerAddress" : "New Jersey"
 # }

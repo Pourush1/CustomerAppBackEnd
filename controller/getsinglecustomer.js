@@ -4,7 +4,7 @@ const getSingleCustomer = async (req, res) => {
   const { customerId } = req.params
 
   try {
-    const customer = await Customer.findOne({ id: customerId })
+    const customer = await Customer.findOne({ _id: customerId })
     if (customer) {
       console.log('Response accepted', customer)
       return res.json(customer)

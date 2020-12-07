@@ -6,7 +6,7 @@ const updateCustomer = async (req, res) => {
   console.log(customerId)
 
   try {
-    const customer = await Customer.findOne({ id: customerId })
+    const customer = await Customer.findOne({ _id: customerId })
     if (!customer) {
       res.status(400).json('data not found')
     } else {

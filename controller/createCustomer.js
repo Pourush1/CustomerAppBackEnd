@@ -1,10 +1,10 @@
 const Customer = require('../models/Customer')
 
 const createCustomer = async (req, res) => {
-  const { customerName, customerAddress, id } = req.body
+  const { customerName, customerAddress } = req.body
 
   try {
-    const CustomerModelData = { customerName, customerAddress, id }
+    const CustomerModelData = { customerName, customerAddress }
     const customer = await Customer.create(CustomerModelData)
     res.json(customer)
   } catch (err) {
