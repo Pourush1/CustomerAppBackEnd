@@ -1,9 +1,7 @@
 const Customer = require('../models/Customer')
 
 const updateCustomer = async (req, res) => {
-  console.log(req.body)
   const { customerId } = req.params
-  console.log(customerId)
 
   try {
     const customer = await Customer.findOne({ _id: customerId })

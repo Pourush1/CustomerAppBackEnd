@@ -6,7 +6,6 @@ const getSingleCustomer = async (req, res) => {
   try {
     const customer = await Customer.findOne({ _id: customerId })
     if (customer) {
-      console.log('Response accepted', customer)
       return res.json(customer)
     } else {
       return res.status(404).json('No customer found')
