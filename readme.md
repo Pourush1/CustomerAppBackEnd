@@ -24,8 +24,11 @@
 2. The API for these services and their functionality are mentioned below. Since, I have not deployed the applicaiton, the API will be served from my localhost and also the data is being stored in my cloud Customer database,
 
 http://localhost:3000/ => returns the list with all the customers information (READ)
+
 http://localhost:3000/create => createst the new customer infromation and stores in the database(CREATE)
+
 http://localhost:3000/customerId => updates the information of the customer, by searching through the ID (UPDATE)
+
 http://localhost:3000/delete/customerId => deletes the infromation of the particular customer according to the id. (DELETE)
 
 **Note:** => You need to install HTTP Rest client extension in the VScode to make the API call inside VScode and see the response inside there as well. I have made a requests folder with api.http file where you can see the different CRUD request sent.
