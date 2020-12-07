@@ -8,8 +8,8 @@ POST http://localhost:5000/add
 Content-Type: application/json
 
 {
-  "customerName" : "Bikram",
-  "customerAddress" : "Seattle"
+  "customerName" : "Bikash",
+  "customerAddress" : "Kirtipur"
 }
 
 # POST http://localhost:5000/5fcca2b6ca135889c4f01c2d
